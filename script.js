@@ -12,11 +12,18 @@ function loadGame(game) {
     // Set the iframe source based on the selected game
     if (game === 'littleAlchemy2') {
       iframe.src = "https://littlealchemy2.com";
+    } else if (game === 'tetris') {
+      iframe.src = "https://tetris.com/play-tetris";
+    } else if (game === 'googleDino') {
+      iframe.src = "https://chrome-dino.com";
+    } else if (game === 'pacman') {
+      iframe.src = "https://www.google.com/search?q=pacman";
+    } else if (game === 'pong') {
+      iframe.src = "https://ponggame.org";
+    } else if (game === '2048') {
+      iframe.src = "https://play2048.co";
     }
     
-    // You can add more conditions here if you have more games available
-    // Example: if (game === 'anotherGame') { iframe.src = "gameURL"; }
-  
     // Set the iframe attributes
     iframe.width = "800";
     iframe.height = "600";
