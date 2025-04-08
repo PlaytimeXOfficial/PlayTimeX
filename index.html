@@ -12,41 +12,23 @@
     <p>Your go-to place for unblocked fun games!</p>
   </header>
 
-  <!-- Game Categories Section -->
-  <section id="games">
-    <h2>Featured Games</h2>
-    
-    <!-- Embed 2048 Game -->
-    <div class="game">
-      <h3>2048</h3>
-      <iframe src="https://play2048.co" width="800" height="600" frameborder="0"></iframe>
-    </div>
-    
-    <!-- Embed Run 3 Game -->
-    <div class="game">
-      <h3>Run 3</h3>
-      <iframe src="https://run3unblocked.com" width="800" height="600" frameborder="0"></iframe>
-    </div>
-    
-    <!-- Embed Little Alchemy 2 Game -->
-    <div class="game">
-      <h3>Little Alchemy 2</h3>
-      <iframe src="https://littlealchemy2.com" width="800" height="600" frameborder="0"></iframe>
-    </div>
-
-    <!-- Embed Google Chrome Dino -->
-    <div class="game">
-      <h3>Google Chrome Dino</h3>
-      <iframe src="https://chrome-dino.com" width="800" height="600" frameborder="0"></iframe>
-    </div>
-
-    <!-- Embed Tetris Game -->
-    <div class="game">
-      <h3>Tetris</h3>
-      <iframe src="https://tetris.com/play-tetris" width="800" height="600" frameborder="0"></iframe>
-    </div>
+  <!-- Button Section -->
+  <section id="game-buttons">
+    <h2>Choose Your Game</h2>
+    <button onclick="loadGame('littleAlchemy2')">Play Little Alchemy 2</button>
+    <!-- You can add more buttons for other games when unblocked -->
   </section>
 
-  <!-- Footer Section -->
+  <!-- Game Display Section -->
+  <section id="game-display">
+    <!-- iframe will be dynamically inserted here when a button is clicked -->
+  </section>
+
   <footer>
-    <p>&copy; 2025 PlayZoneX
+    <p>&copy; 2025 PlayZoneX - All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
